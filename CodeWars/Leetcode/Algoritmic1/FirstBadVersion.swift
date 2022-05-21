@@ -14,13 +14,13 @@ import Foundation
 //
 
 
-    class Solution : VersionControl {
-        func firstBadVersion(_ n: Int) -> Int {
-            var b = n
-            while isBadVersion(b){
-                b -= 1
-            }
-            return b - 1
-        }
-    }
+//    class Solution : VersionControl {
+//        func firstBadVersion(_ n: Int) -> Int {
+//            var b = n
+//            while isBadVersion(b){
+//                b -= 1
+//            }
+//            return b - 1
+//        }
+//    }
 
