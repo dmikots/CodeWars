@@ -17,5 +17,12 @@ import Foundation
 //For example: (Input --> Output)
 
 func triangular(_ n: Int) -> Int{
-
+    if n <= 0 {
+        return 0
+    }
+    var numberOfDots = 0
+    for i in 0...n{
+        numberOfDots += i
+    }
+    return numberOfDots
 }

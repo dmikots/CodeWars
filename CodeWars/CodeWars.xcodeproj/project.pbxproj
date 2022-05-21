@@ -16,6 +16,7 @@
 		2DB25B0B2839092400976AAB /* CodeWarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB25B0A2839092400976AAB /* CodeWarsUITestsLaunchTests.swift */; };
 		2DB25B192839101900976AAB /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB25B182839101900976AAB /* 1.swift */; };
 		2DB25B1E2839130300976AAB /* 1(7).swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB25B1D2839130300976AAB /* 1(7).swift */; };
+		2DB25B22283944CA00976AAB /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB25B21283944CA00976AAB /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		2DB25B0A2839092400976AAB /* CodeWarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2DB25B182839101900976AAB /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
 		2DB25B1D2839130300976AAB /* 1(7).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1(7).swift"; sourceTree = "<group>"; };
+		2DB25B21283944CA00976AAB /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		2DB25AE12839092200976AAB = {
 			isa = PBXGroup;
 			children = (
+				2DB25B1F2839449600976AAB /* Leetcode */,
 				2DB25AEC2839092200976AAB /* CodeWars */,
 				2DB25AFD2839092400976AAB /* CodeWarsTests */,
 				2DB25B072839092400976AAB /* CodeWarsUITests */,
@@ -147,6 +150,22 @@
 				2DB25B1D2839130300976AAB /* 1(7).swift */,
 			);
 			path = 7Kuy;
+			sourceTree = "<group>";
+		};
+		2DB25B1F2839449600976AAB /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				2DB25B20283944BB00976AAB /* Algoritmic1 */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		2DB25B20283944BB00976AAB /* Algoritmic1 */ = {
+			isa = PBXGroup;
+			children = (
+				2DB25B21283944CA00976AAB /* BinarySearch.swift */,
+			);
+			path = Algoritmic1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +302,7 @@
 				2DB25AF02839092200976AAB /* ContentView.swift in Sources */,
 				2DB25B1E2839130300976AAB /* 1(7).swift in Sources */,
 				2DB25AEE2839092200976AAB /* CodeWarsApp.swift in Sources */,
+				2DB25B22283944CA00976AAB /* BinarySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
