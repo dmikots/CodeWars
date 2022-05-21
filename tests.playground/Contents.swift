@@ -1,11 +1,4 @@
-//
-//  MaximumSubarray.swift
-//  CodeWars
-//
-//  Created by DariaMikots on 21.05.2022.
-//
-
-import Foundation
+import UIKit
 
 class Solution5 {
     func maxSubArray(_ nums: [Int]) -> Int {
@@ -23,3 +16,7 @@ class Solution5 {
         return maxSum
 }
 }
+let arr =
+[1]
+let s = Solution5()
+let a = s.maxSubArray(arr)
