@@ -1,22 +1,12 @@
 import UIKit
 
 class Solution {
-    func findMaxConsecutiveOnes(_ nums: [Int]) -> Int {
-        var counts = 0
-        var maxSum = 0
-        for i in 0..<nums.count {
-            if i == 0 {
-                counts = 0
-            }
-            counts += 1
-            if maxSum < counts {
-                maxSum = counts
-            }
-        }
-        return maxSum
+    func sortedSquares(_ nums: [Int]) -> [Int] {
+        return nums.map { $0 * $0}.sorted()
+      
     }
 }
 let arr =
-[1]
+[-7,-3,2,3,11]
 let s = Solution()
-let a = s.findMaxConsecutiveOnes(arr)
+let a = s.sortedSquares(arr)
