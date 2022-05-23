@@ -1,12 +1,22 @@
 import UIKit
-
 class Solution {
-    func sortedSquares(_ nums: [Int]) -> [Int] {
-        return nums.map { $0 * $0}.sorted()
-      
+    func duplicateZeros(_ arr: inout [Int]) {
+        var b = 0
+        while b < arr.count {
+            if arr.filter { $0 == 0}.count == arr.count {
+                break
+            }
+            if arr[b] == 0 {
+                arr.insert(0, at: b + 1)
+                arr.popLast()
+                b += 1
+            }
+            b += 1
+        }
+         print(arr)
     }
 }
-let arr =
-[-7,-3,2,3,11]
+var arr =
+[1,0,2,3,0,4,5,0]
 let s = Solution()
-let a = s.sortedSquares(arr)
+let a: () = s.duplicateZeros(&arr)
