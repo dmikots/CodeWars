@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D001339283D702600344292 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D001338283D702600344292 /* RemoveElement.swift */; };
+		2D00133B283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00133A283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift */; };
 		2D6DD8FE283AC92D00007710 /*  MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DD8FD283AC92D00007710 /*  MaxConsecutiveOnes.swift */; };
 		2D6DD900283AD0B500007710 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DD8FF283AD0B500007710 /* FindNumbersWithEvenNumberOfDigits.swift */; };
 		2D6DD902283AD28900007710 /*  SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DD901283AD28900007710 /*  SquaresOfASortedArray.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D001338283D702600344292 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
+		2D00133A283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesfromSortedArray.swift; sourceTree = "<group>"; };
 		2D6DD8FD283AC92D00007710 /*  MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MaxConsecutiveOnes.swift"; sourceTree = "<group>"; };
 		2D6DD8FF283AD0B500007710 /* FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
 		2D6DD901283AD28900007710 /*  SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SquaresOfASortedArray.swift"; sourceTree = "<group>"; };
@@ -95,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D001337283D700B00344292 /* DeletingItems */ = {
+			isa = PBXGroup;
+			children = (
+				2D001338283D702600344292 /* RemoveElement.swift */,
+				2D00133A283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift */,
+			);
+			name = DeletingItems;
+			sourceTree = "<group>";
+		};
 		2D6DD8F9283AC8D000007710 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 		2D6DD8FB283AC8FA00007710 /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
+				2D001337283D700B00344292 /* DeletingItems */,
 				2D6DD8FC283AC90700007710 /* Introduction */,
 			);
 			name = Arrays;
@@ -365,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D00133B283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift in Sources */,
 				2DB25B192839101900976AAB /* 1.swift in Sources */,
 				2DB25AF02839092200976AAB /* ContentView.swift in Sources */,
 				2DB25B1E2839130300976AAB /* 1(7).swift in Sources */,
@@ -376,6 +391,7 @@
 				2DB25B2928395B8200976AAB /*  ContainsDuplicate.swift in Sources */,
 				2D6DD906283C271200007710 /* MergeSortedArray.swift in Sources */,
 				2DB25AEE2839092200976AAB /* CodeWarsApp.swift in Sources */,
+				2D001339283D702600344292 /* RemoveElement.swift in Sources */,
 				2D6DD902283AD28900007710 /*  SquaresOfASortedArray.swift in Sources */,
 				2DB25B22283944CA00976AAB /* BinarySearch.swift in Sources */,
 				2DB25B2B283961ED00976AAB /* MaximumSubarray.swift in Sources */,
