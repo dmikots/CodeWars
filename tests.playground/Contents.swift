@@ -1,22 +1,20 @@
 import UIKit
+
 class Solution {
-    func duplicateZeros(_ arr: inout [Int]) {
-        var b = 0
-        while b < arr.count {
-            if arr.filter { $0 == 0}.count == arr.count {
-                break
+    func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        let a = nums1.count - 1
+        for i in 0..<n {
+            if nums2.isEmpty {
+                return
             }
-            if arr[b] == 0 {
-                arr.insert(0, at: b + 1)
-                arr.popLast()
-                b += 1
-            }
-            b += 1
+            nums1.remove(at: a - i)
+            nums1.insert(nums2[i], at: a - i)
+            print(nums1)
         }
-         print(arr)
-    }
+        nums1.sort()
+}
 }
 var arr =
-[1,0,2,3,0,4,5,0]
+[-1,0,0,3,3,3,0,0,0]
 let s = Solution()
-let a: () = s.duplicateZeros(&arr)
+let a: () = s.merge(&arr, 6, [1,2,2], 3)
