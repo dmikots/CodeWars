@@ -1,17 +1,20 @@
 import UIKit
-
 class Solution {
-    func removeDuplicates(_ nums: inout [Int]) -> Int {
-        let set = Set(nums)
-        nums.removeAll()
-        nums += set
-        nums.sort()
-        return nums.count
+    func validMountainArray(_ arr: [Int]) -> Bool {
+        if Set(arr).count != arr.count {
+            return false
+        }
+        let count = arr.count
+        if arr[count/2] < arr[count/2 + 1]{
+            return false
+        }
+        return true
     }
 }
 
 
+
 var arr =
-[0,0,1,1,1,2,2,3,3,4]
+[-2,0,10,-19,4,6,-8]
 let s = Solution()
-let a = s.removeDuplicates(&arr)
+let a = s.checkIfExist(arr)
