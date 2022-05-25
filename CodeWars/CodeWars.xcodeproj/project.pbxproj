@@ -15,6 +15,7 @@
 		2D6DD904283C194300007710 /*  DuplicateZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DD903283C194300007710 /*  DuplicateZeros.swift */; };
 		2D6DD906283C271200007710 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DD905283C271200007710 /* MergeSortedArray.swift */; };
 		2D718F64283EB65200180DF4 /* CheckDoubleExist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D718F63283EB65200180DF4 /* CheckDoubleExist.swift */; };
+		2D718F66283EC48D00180DF4 /* validMountainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D718F65283EC48D00180DF4 /* validMountainArray.swift */; };
 		2DB25AEE2839092200976AAB /* CodeWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB25AED2839092200976AAB /* CodeWarsApp.swift */; };
 		2DB25AF02839092200976AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB25AEF2839092200976AAB /* ContentView.swift */; };
 		2DB25AF22839092400976AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB25AF12839092400976AAB /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		2D6DD903283C194300007710 /*  DuplicateZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " DuplicateZeros.swift"; sourceTree = "<group>"; };
 		2D6DD905283C271200007710 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		2D718F63283EB65200180DF4 /* CheckDoubleExist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDoubleExist.swift; sourceTree = "<group>"; };
+		2D718F65283EC48D00180DF4 /* validMountainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validMountainArray.swift; sourceTree = "<group>"; };
 		2DB25AEA2839092200976AAB /* CodeWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB25AED2839092200976AAB /* CodeWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWarsApp.swift; sourceTree = "<group>"; };
 		2DB25AEF2839092200976AAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				2D718F63283EB65200180DF4 /* CheckDoubleExist.swift */,
+				2D718F65283EC48D00180DF4 /* validMountainArray.swift */,
 			);
 			name = SearchingforItemsinArray;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				2D001339283D702600344292 /* RemoveElement.swift in Sources */,
 				2D718F64283EB65200180DF4 /* CheckDoubleExist.swift in Sources */,
 				2D6DD902283AD28900007710 /*  SquaresOfASortedArray.swift in Sources */,
+				2D718F66283EC48D00180DF4 /* validMountainArray.swift in Sources */,
 				2DB25B22283944CA00976AAB /* BinarySearch.swift in Sources */,
 				2DB25B2B283961ED00976AAB /* MaximumSubarray.swift in Sources */,
 			);
