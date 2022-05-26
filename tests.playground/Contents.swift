@@ -1,20 +1,21 @@
-import UIKit
 class Solution {
-    func validMountainArray(_ arr: [Int]) -> Bool {
-        if Set(arr).count != arr.count {
-            return false
+    func sortArrayByParity(_ nums: [Int]) -> [Int] {
+        var arr: [Int] = []
+        for i in 0..<nums.count{
+            if nums[i] % 2 == 0 {
+                arr.append(nums[i])
+            }
         }
-        let count = arr.count
-        if arr[count/2] < arr[count/2 + 1]{
-            return false
+        for i in 0..<nums.count{
+            if nums[i] % 2 != 0 {
+                arr.append(nums[i])
+            }
         }
-        return true
+        return arr
     }
 }
 
-
-
 var arr =
-[-2,0,10,-19,4,6,-8]
+[0,1,0,3,12]
 let s = Solution()
-let a = s.checkIfExist(arr)
+let a = s.sortArrayByParity(arr)
