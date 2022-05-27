@@ -1,21 +1,22 @@
 class Solution {
-    func sortArrayByParity(_ nums: [Int]) -> [Int] {
-        var arr: [Int] = []
-        for i in 0..<nums.count{
-            if nums[i] % 2 == 0 {
-                arr.append(nums[i])
+    func heightChecker(_ heights: [Int]) -> Int {
+        var count = 0
+
+        let unsortedSet = Set(heights)
+        var sortedArr = heights.sorted()
+        let sortedSet = Set(sortedArr)
+        print(sortedArr)
+        let setCount = sortedArr.count - Set(sortedArr).count
+        var b = 0
+        for i in 0..<heights.count{
+            if heights[i] != sortedArr[i]{
+                count += 1
             }
         }
-        for i in 0..<nums.count{
-            if nums[i] % 2 != 0 {
-                arr.append(nums[i])
-            }
-        }
-        return arr
+        return count + setCount
     }
 }
-
 var arr =
 [0,1,0,3,12]
 let s = Solution()
-let a = s.sortArrayByParity(arr)
+let a = s.heightChecker(arr)
