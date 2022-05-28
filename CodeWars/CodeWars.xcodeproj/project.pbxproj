@@ -18,6 +18,7 @@
 		2D718F66283EC48D00180DF4 /* validMountainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D718F65283EC48D00180DF4 /* validMountainArray.swift */; };
 		2D718F6828400EB400180DF4 /* ReplaceElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D718F6728400EB400180DF4 /* ReplaceElement.swift */; };
 		2D718F6B284164E400180DF4 /* HeightChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D718F6A284164E400180DF4 /* HeightChecker.swift */; };
+		2D718F6D2842B8FA00180DF4 /* ThirdMaximumNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D718F6C2842B8FA00180DF4 /* ThirdMaximumNumber.swift */; };
 		2DB25AEE2839092200976AAB /* CodeWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB25AED2839092200976AAB /* CodeWarsApp.swift */; };
 		2DB25AF02839092200976AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB25AEF2839092200976AAB /* ContentView.swift */; };
 		2DB25AF22839092400976AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB25AF12839092400976AAB /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		2D718F65283EC48D00180DF4 /* validMountainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validMountainArray.swift; sourceTree = "<group>"; };
 		2D718F6728400EB400180DF4 /* ReplaceElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceElement.swift; sourceTree = "<group>"; };
 		2D718F6A284164E400180DF4 /* HeightChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightChecker.swift; sourceTree = "<group>"; };
+		2D718F6C2842B8FA00180DF4 /* ThirdMaximumNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMaximumNumber.swift; sourceTree = "<group>"; };
 		2DB25AEA2839092200976AAB /* CodeWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB25AED2839092200976AAB /* CodeWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeWarsApp.swift; sourceTree = "<group>"; };
 		2DB25AEF2839092200976AAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				2D718F6A284164E400180DF4 /* HeightChecker.swift */,
+				2D718F6C2842B8FA00180DF4 /* ThirdMaximumNumber.swift */,
 			);
 			name = Conclusion;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D718F6D2842B8FA00180DF4 /* ThirdMaximumNumber.swift in Sources */,
 				2D00133B283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift in Sources */,
 				2DB25B192839101900976AAB /* 1.swift in Sources */,
 				2DB25AF02839092200976AAB /* ContentView.swift in Sources */,

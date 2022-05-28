@@ -1,22 +1,29 @@
 class Solution {
-    func heightChecker(_ heights: [Int]) -> Int {
-        var count = 0
-
-        let unsortedSet = Set(heights)
-        var sortedArr = heights.sorted()
-        let sortedSet = Set(sortedArr)
-        print(sortedArr)
-        let setCount = sortedArr.count - Set(sortedArr).count
-        var b = 0
-        for i in 0..<heights.count{
-            if heights[i] != sortedArr[i]{
-                count += 1
-            }
+    func thirdMax(_ nums: [Int]) -> Int {
+       var arr = nums
+        var arr2 = nums
+        if arr.count > 3 {
+            // [1,2,3] this is 3
+        arr.removeAll { Int in
+            Int == arr.max()
         }
-        return count + setCount
-    }
+            if arr.count > 2 {
+                arr.removeAll { Int in
+                    Int == arr.max()
+                }
+            }
+            return arr.max()!
+        }
+        if arr2.count == 2 {
+            arr2.removeAll { Int in
+                Int == arr2.max()
+            }
+            return arr2.max()!
+        }
+        return arr.max()!
+}
 }
 var arr =
 [0,1,0,3,12]
 let s = Solution()
-let a = s.heightChecker(arr)
+let a = s.thirdMax(arr)
