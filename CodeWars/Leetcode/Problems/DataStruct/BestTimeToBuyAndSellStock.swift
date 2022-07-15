@@ -23,13 +23,13 @@ import Foundation
   *     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
   * }
   */
-func swapPairs(_ head: ListNode?) -> ListNode? {
-    guard let head = head else { return nil }
-    if let next = head.next {
-        head.next = swapPairs(next.next)
-        next.next = head
-        return next
-    } else {
-       return head
-    }
-}
+//func swapPairs(_ head: ListNode?) -> ListNode? {
+//    guard let head = head else { return nil }
+//    if let next = head.next {
+//        head.next = swapPairs(next.next)
+//        next.next = head
+//        return next
+//    } else {
+//       return head
+//    }
+//}
