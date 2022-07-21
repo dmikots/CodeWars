@@ -11,6 +11,7 @@
 		2D00133B283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00133A283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift */; };
 		2D452E462889F139003C1627 /* 1480.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D452E452889F139003C1627 /* 1480.swift */; };
 		2D452E482889F24A003C1627 /* 1108.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D452E472889F24A003C1627 /* 1108.swift */; };
+		2D452E4A2889F420003C1627 /* 2021.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D452E492889F420003C1627 /* 2021.swift */; };
 		2D6DD8FE283AC92D00007710 /*  MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DD8FD283AC92D00007710 /*  MaxConsecutiveOnes.swift */; };
 		2D6DD900283AD0B500007710 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DD8FF283AD0B500007710 /* FindNumbersWithEvenNumberOfDigits.swift */; };
 		2D6DD902283AD28900007710 /*  SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DD901283AD28900007710 /*  SquaresOfASortedArray.swift */; };
@@ -65,6 +66,7 @@
 		2D00133A283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesfromSortedArray.swift; sourceTree = "<group>"; };
 		2D452E452889F139003C1627 /* 1480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1480.swift; sourceTree = "<group>"; };
 		2D452E472889F24A003C1627 /* 1108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1108.swift; sourceTree = "<group>"; };
+		2D452E492889F420003C1627 /* 2021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.swift; sourceTree = "<group>"; };
 		2D6DD8FD283AC92D00007710 /*  MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MaxConsecutiveOnes.swift"; sourceTree = "<group>"; };
 		2D6DD8FF283AD0B500007710 /* FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
 		2D6DD901283AD28900007710 /*  SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SquaresOfASortedArray.swift"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				2DA7ECB9288200B7009EC270 /* 1920.swift */,
 				2D452E452889F139003C1627 /* 1480.swift */,
 				2D452E472889F24A003C1627 /* 1108.swift */,
+				2D452E492889F420003C1627 /* 2021.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 			files = (
 				2D718F6D2842B8FA00180DF4 /* ThirdMaximumNumber.swift in Sources */,
 				2DA7ECBA288200B7009EC270 /* 1920.swift in Sources */,
+				2D452E4A2889F420003C1627 /* 2021.swift in Sources */,
 				2D718FB028455B2B00180DF4 /* BestTimeToBuyAndSellStock.swift in Sources */,
 				2D00133B283D70BB00344292 /* RemoveDuplicatesfromSortedArray.swift in Sources */,
 				2DB25B192839101900976AAB /* 1.swift in Sources */,
